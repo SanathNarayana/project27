@@ -22,7 +22,7 @@ function setup() {
   bob4=new bob(bob1.x-60,300,30);
   bob5=new bob(bob4.x-60,300,30);
   //rope1=new rope(bob1.body,toproof.body,-60*2,0);
-  string=new rope(bob1.body,toproof.body,0,0);
+  string1=new rope(bob1.body,toproof.body,0,0);
   string2=new rope(bob2.body,toproof.body,60,0);
   string3=new rope(bob3.body,toproof.body,120,0);
   string4=new rope(bob4.body,toproof.body,-60,0);
@@ -42,7 +42,7 @@ function draw() {
   bob4.display();
   bob5.display();
   
-  string.display();
+  string1.display();
   string2.display();
   string3.display();
   string4.display();
